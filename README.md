@@ -9,6 +9,59 @@
 - Feel free to contribute in any way you want.
 - Make sure to follow the contribution guidelines listed below.
 
+
+
+## Algure Contribution
+
+This class solves any arithmetic equation with the function "gunnercal" and observes the rules of BODMAS while doing so.
+Logarithmic and trigonometric functions can also be evaluated with the following key phrases as input: 
+NOTE: ALGORITHM IS CASE SENSITIVE
+
+-Alog: Antilog e.g Alog0.1=Alog(0.1)=1.25
+
+-Asin: ArcSine e.g Asin0.5=Asin(0.5)=30
+
+-Acos: ArcCosine e.g Acos(0.5)=Acos(0.5)=60
+
+-Atan: ArcTangent e.g Atan1= Atan(1)=45
+
+-ln: Natural Logarithe.g ln1=ln(1)=0
+
+-log: logarithm e.g log10=log(10)=1
+
+-sin: Sine e.g sin30=sin(30)=0.5
+
+-cos: Cosine e.g cos60=cos(60)=0.5
+
+-tan: Tangent e.g tan45=tan(45)=1
+
+-e: exponential e.g e5=e(5)=148.4
+
+-!: factorial e.g 6!=720
+
+-^: power e.g 2^3=8 2^-1=0.5
+
+-Regular arithmetic:+,-,*,/,(,)etc.
+
+Sample input: gunnercal("2+3(cos(35+5^2)+log10)")
+Sample output: "6.5"
+
+Space complexity: O(n)=>linear
+
+
+## Checklist
+- [ Y] I've read the contribution guidelines.
+- [ Y] I've checked the issue list before deciding what to submit.
+- [ Y] I've edited the README.md and link to my code.
+ 
+ 
+## Related Issues (Mention Issue no. like #xxx)
+
+this commit fixes #337 
+<br/>
+(Write your answer above.)
+
+
 ## Content
 
 - We currently have 4 folders for 8 programming languages - C, C++, Java, Python, C#, Go, JavaScript and PHP.
